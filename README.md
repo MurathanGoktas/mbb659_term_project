@@ -23,4 +23,9 @@ There are two types of data in this pipeline.
 Known PETases are automatically downloaded by pipeline by their Uniprot entry keys identified in `config/config.json`.
 Metagenomic datasets in this study cannot be downloaded by APIs. Thus users are excepted to download those metagenomic datasets manually and move to `data/metagenomic_datasets/` folder and fill the necessary parts in `config/config.json`. The metagenomic dataset used in this study is [here](https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&page=taxonDetail&taxon_oid=2140918008). Moving `2140918008.a.faa` file into `data/metagenomic_datasets/` and filling `config/config.json` would be sufficient to reproduce results.
 
+### Pipeline
+![alt text](https://github.com/MurathanGoktas/mbb659_term_project/blob/main/results/dag.svg)
 
+### Results
+Pipeline generates its final output, which is a phylogenetic tree in Newick format, in `data/pyhylogenetic_tree_PETases.tree`. This tree can be visualized by online tools. We used this [tool](http://etetoolkit.org/treeview/). Proteins with `Bog_all` are from the metagenomic dataset.
+![alt text](https://github.com/MurathanGoktas/mbb659_term_project/blob/main/results/phylogenetic_tree.png)
