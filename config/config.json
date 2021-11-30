@@ -1,0 +1,8 @@
+{
+"known_PETases_uniprot_entry" : 
+["W0TJ64", "E9LVI0", "E5BBQ3", "D1A9G5", "E9LVH7", "H6WX58", "E9LVH9", "A0A0K8P6T7", "G9BY57"],
+"metagenomic_datasets" : {
+	"2140918008" : "2140918008.a.faa"},
+"metagenomic_datasetss" : 
+	["2140918008.a.faa"]
+}
