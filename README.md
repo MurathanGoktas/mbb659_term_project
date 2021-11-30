@@ -1,6 +1,6 @@
 # Novel PETase Discovery on Metagenomic Datasets
 
-Pipeline imitates the workflow in a [scientific paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5881046/) (Danso et.al.) which downloads generates a Hidden Markov Model from known 9 PETases and searchs databases with this Hidden Markov Model to discover novel PETases.
+Pipeline imitates the workflow in a [scientific paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5881046/) (Danso et.al.) which generates a Hidden Markov Model from known 9 PETases and searchs databases with this Hidden Markov Model to discover novel PETases.
 
 In this snakemake pipeline we built a HMM with same 9 molecules and search only 1 metagenomic dataset(not in the repo check Dataset section).
 
